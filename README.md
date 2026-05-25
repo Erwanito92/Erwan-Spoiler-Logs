@@ -1,2 +1,2 @@
 # Erwan-Spoiler-Logs
-Archive de mes spoilers logs de Randomizer
+Ce repo contient les archives des spoiler logs de mes parties d'Ocarina of Time Randomizer et autres.
