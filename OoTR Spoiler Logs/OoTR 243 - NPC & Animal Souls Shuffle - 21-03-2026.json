@@ -1,0 +1,1387 @@
+Seed: "4caa5df8916b477159ec71b4348aae74897cc6ec0a4a441102eb5471ce0fa9c10ed5b218acff4543b4de6349fe185497"
+Version: v30.1
+
+Settings
+  games: oot
+  mode: single
+  goal: ganon
+  logic: allLocations
+  itemPool: normal
+  generateSpoilerLog: true
+  probabilisticFoolish: true
+  noPlandoHints: false
+  extraHintRegions: false
+  hintPathDungeons: false
+  hintPathBoss: true
+  hintPathEndBoss: false
+  hintPathEvents: false
+  hintImportance: false
+  songs: songLocations
+  goldSkulltulaTokens: none
+  mapCompassShuffle: starting
+  smallKeyShuffleOot: ownDungeon
+  smallKeyShuffleHideout: vanilla
+  smallKeyShuffleChestGame: vanilla
+  bossKeyShuffleOot: ownDungeon
+  silverRupeeShuffle: vanilla
+  ganonBossKey: custom
+  dungeonRewardShuffle: dungeonBlueWarps
+  scrubShuffleOot: false
+  cowShuffleOot: false
+  shopShuffleOot: none
+  shufflePotsOot: none
+  shuffleCratesOot: none
+  shuffleHivesOot: false
+  shuffleGrassOot: none
+  shuffleRocksOot: false
+  shuffleTreesOot: false
+  shuffleBushOot: false
+  shuffleSoilOot: false
+  shuffleFreeRupeesOot: none
+  shuffleFreeHeartsOot: none
+  shuffleWonderItemsOot: none
+  shuffleButterfliesOot: false
+  shuffleRedBouldersOot: false
+  shuffleFrogsRupeesOot: false
+  shuffleIciclesOot: false
+  shuffleRedIceOot: false
+  shuffleOcarinasOot: true
+  shuffleMasterSword: true
+  shuffleGerudoCard: false
+  shuffleMaskTrades: false
+  shuffleMerchantsOot: false
+  pondFishShuffle: false
+  divingGameRupeeShuffle: false
+  fairyFountainFairyShuffleOot: false
+  fairySpotShuffleOot: false
+  eggShuffle: false
+  priceOotShops: vanilla
+  priceOotScrubs: vanilla
+  priceOotMerchants: vanilla
+  songEventsShuffleOot: false
+  startingAge: child
+  swordlessAdult: false
+  doorOfTime: open
+  ageChange: none
+  dekuTree: open
+  kakarikoGate: open
+  openZdShortcut: false
+  zoraKing: vanilla
+  gerudoFortress: single
+  skipZelda: true
+  lacs: vanilla
+  rainbowBridge: custom
+  regionState: dungeonBeaten
+  freeScarecrowOot: false
+  preCompletedDungeons: false
+  ootPreplantedBeans: false
+  csmc: never
+  hookshotAnywhereOot: off
+  climbMostSurfacesOot: off
+  restoreBrokenActors: false
+  alterLostWoodsExits: false
+  damageMultiplierOot: normal
+  progressiveShieldsOot: separate
+  progressiveSwordsOot: goron
+  fillWallets: false
+  bottleContentShuffle: true
+  blueFireArrows: true
+  iceArrowPlatformsOot: false
+  sunlightArrows: true
+  bronzeScale: false
+  childWallets: false
+  colossalWallets: false
+  skeletonKeyOot: false
+  platinumTokenOot: false
+  bombchuBehaviorOot: free
+  spinUpgradeOot: false
+  extraChildSwordsOot: false
+  blastMaskOot: false
+  stoneMaskOot: false
+  elegyOot: false
+  ocarinaButtonsShuffleOot: false
+  soulsEnemyOot: false
+  soulsBossOot: false
+  soulsNpcOot: true
+  soulsAnimalOot: true
+  soulsMiscOot: false
+  coins: false
+  trapIce: true
+  trapFire: true
+  trapShock: true
+  trapDrain: true
+  trapAntiMagic: true
+  trapKnockback: true
+  trapRupoor: true
+  cloakTraps: true
+  trapsQuantity: verylarge
+  songOfDoubleTimeOot: false
+  agelessSwords: false
+  agelessShields: false
+  agelessTunics: false
+  agelessBoots: false
+  agelessSticks: false
+  agelessBoomerang: false
+  agelessHammer: false
+  agelessHookshot: false
+  agelessSlingshot: false
+  agelessBow: false
+  agelessChildTrade: false
+  agelessStrength: false
+  erSelfLoops: false
+  erNoPolarity: false
+  erDecoupled: false
+  erBoss: none
+  erDungeons: none
+  erGrottos: none
+  erIndoors: none
+  erRegions: none
+  erOverworld: none
+  erMixed: none
+  erSpawns: both
+  erWallmasters: none
+  erWarps: none
+  erOneWays: none
+  shadowFastBoat: true
+  fastBunnyHood: true
+  critWiggleDisable: true
+
+Special Conditions
+  BRIDGE:
+    count: 4
+    stones: false
+    medallions: true
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  MOON:
+    count: 4
+    stones: false
+    medallions: false
+    remains: true
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  LACS:
+    count: 0
+    stones: false
+    medallions: false
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  GANON_BK:
+    count: 6
+    stones: false
+    medallions: true
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  MAJORA:
+    count: 0
+    stones: false
+    medallions: false
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+
+Tricks
+  Dodongo's Cavern Upper Adult Jump
+  Child Dead Hand without Kokiri Sword
+  Forest Temple Garden Vines with Hookshot
+  Hammer Through Walls
+  Hidden Grottos (OoT) without Stone of Agony
+  Fewer Lens Requirements (OoT)
+  Man on Roof with Nothing
+  Nighttime Gold Skulltulas without Sun's Song
+  Fewer Tunic Requirements (OoT)
+  Volcano Item with Hover Boots
+  Windmill HP as Adult with Nothing
+
+Starting Items
+  10 Deku Nuts (OoT): 2
+  Progressive Ocarina (OoT): 1
+  Deku Shield (OoT): 1
+  Deku Stick (OoT): 10
+
+Junk Locations
+  MM Beneath The Graveyard Dampe Chest
+  MM Deku Playground Reward All Days
+  MM Goron Race Reward
+  MM Great Bay Great Fairy
+  MM Honey & Darling Reward All Days
+  MM Ikana Great Fairy
+  MM Laboratory Zora Song
+  MM Moon Fierce Deity Mask
+  MM Mountain Village Frog Choir HP
+  MM Ocean Spider House Wallet
+  MM Pinnacle Rock HP
+  MM Snowhead Great Fairy
+  MM Stock Pot Inn Couple's Mask
+  MM Swamp Spider House Mask of Truth
+  MM Town Archery Reward 2
+  MM Waterfall Rapids Beaver Race 2
+  MM Woodfall Great Fairy
+  OOT Deku Theater Nuts Upgrade
+
+World Flags
+  Ganon Trials: none
+  Small Key Ring (OoT): none
+  Small Key Ring (MM): none
+  Silver Rupee Pouches: none
+  Open Dungeons (MM): none
+  Open Dungeons (OoT): none
+  Pre-Activated Owl Statues: none
+  Master Quest Dungeons: none
+  Majora's Mask JP Layouts: none
+
+Entrances
+  OOT Market to OOT Market Mask Shop (OOT_SHOP_MASKS)     -> OOT Market from OOT Market Mask Shop (OOT_MARKET_FROM_MASK_SHOP)
+  OOT SPAWN ADULT to OOT Temple of Time (OOT_SPAWN_ADULT) -> OOT Zora Shop from OOT Zora Domain (OOT_SHOP_ZORA)
+  OOT SPAWN CHILD to OOT Link's House (OOT_SPAWN_CHILD)   -> OOT Market from OOT Market Bazaar (OOT_MARKET_FROM_BAZAAR)
+
+Hints
+  Path to Gohma:
+    OOT Desert Colossus Gossip                      OOT Deku Tree Compass Room Side Chest   Fairy Slingshot
+    OOT Sacred Meadow Gossip Atop Maze Temple Side  OOT Deku Tree Compass Room Side Chest   Fairy Slingshot
+
+  Path to Barinade:
+    OOT Kokiri Gossip Near Lost Woods Grotto  OOT Spirit Temple Statue Hands   Bomb Bag (OoT)
+    OOT Lost Woods Gossip Under Bridge        OOT Spirit Temple Statue Hands   Bomb Bag (OoT)
+
+  Path to Morpha:
+    OOT Kokiri Gossip Near Lost Woods Open         OOT Lake Hylia HP                 Iron Boots (OoT)
+    OOT Lake Hylia Gossip Southeast Lake           OOT Ganon Castle Shadow Chest 2   Soul of Zora Shopkeeper (OoT)
+    OOT Lake Hylia Gossip Southwest Lake           OOT Ganon Castle Shadow Chest 2   Soul of Zora Shopkeeper (OoT)
+    OOT Sacred Meadow Gossip Atop Maze Woods Side  OOT Lake Hylia HP                 Iron Boots (OoT)
+
+  Path to Bongo-Bongo:
+    OOT Sacred Meadow Gossip Near Forest Temple  OOT Bottom of the Well Map   Ruto's Letter
+    OOT Zora River Gossip Grotto                 OOT Bottom of the Well Map   Ruto's Letter
+
+  Foolish:
+    OOT Dodongo Cavern Gossip             Kokiri Forest
+    OOT Gerudo Valley Gossip              Haunted Wasteland
+    OOT Goron City Gossip Near Medigoron  Haunted Wasteland
+    OOT Hyrule Castle Gossip After Climb  Jabu-Jabu's Belly
+    OOT Hyrule Castle Gossip Grotto       Kokiri Forest
+    OOT Lost Woods Gossip Grotto          Jabu-Jabu's Belly
+
+  Specific Hints:
+    OOT Death Mountain Crater Gossip Grotto        OOT Zora River Frogs Game                Megaton Hammer (OoT) 
+    OOT Death Mountain Crater Gossip Wall          OOT Fire Temple Scarecrow Chest          Small Key (Fire Temple) 
+    OOT Death Mountain Trail Gossip Grotto         OOT Lost Woods Odd Mushroom              Gerudo Mask 
+                                                   OOT Lost Woods Poacher's Saw             Stone of Agony (OoT) 
+    OOT Death Mountain Trail Gossip on Climb       OOT Gerudo Training Water                Small Key (Gerudo's Training Ground) 
+    OOT Goron City Gossip Boulder Maze             OOT Zora River Frogs Game                Megaton Hammer (OoT) 
+    OOT Graveyard Gossip                           OOT Gerudo Fortress Archery Reward 1     Cojiro 
+                                                   OOT Gerudo Fortress Archery Reward 2     Soul of Cucco Lady (OoT) 
+    OOT Hyrule Castle Gossip Before Moat           OOT Fishing Pond Child                   Piece of Heart (OoT) 
+                                                   OOT Fishing Pond Adult                   Light Arrows (OoT) 
+    OOT Hyrule Field Gossip Near Castle Town       OOT Death Mountain Trail Prescription    Piece of Heart (OoT) 
+                                                   OOT Death Mountain Trail Claim Check     Purple Rupee (OoT) 
+                                                   OOT Death Mountain Trail Biggoron Sword  Piece of Heart (OoT) 
+    OOT Hyrule Field Gossip Near Gerudo Valley     OOT Fire Temple Hammer                   Soul of Goron Shopkeeper (OoT) 
+    OOT Hyrule Field Gossip Near Lake Hylia        OOT Zora Domain Tunic                    Poacher's Saw 
+                                                   OOT Zora Domain Eyeball Frog             Keaton Mask (OoT) 
+    OOT Hyrule Field Gossip Southeast Grotto       OOT Zora Domain Tunic                    Poacher's Saw 
+                                                   OOT Zora Domain Eyeball Frog             Keaton Mask (OoT) 
+    OOT Kakariko Gossip Grotto                     OOT Fire Temple Scarecrow Chest          Small Key (Fire Temple) 
+    OOT Kokiri Gossip Left of Deku Tree            OOT Gerudo Training Water                Small Key (Gerudo's Training Ground) 
+    OOT Kokiri Gossip Right of Deku Tree           OOT Great Fairy Defense Upgrade          Zora Mask (OoT) 
+    OOT Lake Hylia Gossip Near River               OOT Gerudo Fortress Archery Reward 1     Cojiro 
+                                                   OOT Gerudo Fortress Archery Reward 2     Soul of Cucco Lady (OoT) 
+    OOT Market Gossip Outside Temple Left-Center   OOT Forest Temple Floormaster            Soul of Composer Bros. (OoT) 
+    OOT Market Gossip Outside Temple Leftmost      OOT Great Fairy Defense Upgrade          Zora Mask (OoT) 
+    OOT Market Gossip Outside Temple Right-Center  OOT Lost Woods Odd Mushroom              Gerudo Mask 
+                                                   OOT Lost Woods Poacher's Saw             Stone of Agony (OoT) 
+    OOT Market Gossip Outside Temple Rightmost     OOT Forest Temple Floormaster            Soul of Composer Bros. (OoT) 
+    OOT Zora Domain Gossip                         OOT Death Mountain Trail Prescription    Piece of Heart (OoT) 
+                                                   OOT Death Mountain Trail Claim Check     Purple Rupee (OoT) 
+                                                   OOT Death Mountain Trail Biggoron Sword  Piece of Heart (OoT) 
+    OOT Zora Fountain Gossip Near Fairy            OOT Fishing Pond Child                   Piece of Heart (OoT) 
+                                                   OOT Fishing Pond Adult                   Light Arrows (OoT) 
+    OOT Zora Fountain Gossip Northwest             OOT Water Temple River Chest             Progressive Goron Sword 
+    OOT Zora River Gossip High Pillar              OOT Fire Temple Hammer                   Soul of Goron Shopkeeper (OoT) 
+    OOT Zora River Gossip Near Domain              OOT Water Temple River Chest             Progressive Goron Sword 
+
+  Foolish Regions:
+    Forest Temple          : 8
+    Death Mountain Trail   : 7
+    Kokiri Forest          : 6
+    Water Temple           : 5
+    Zora's Domain          : 4
+    Jabu-Jabu's Belly      : 4
+    Zora's Fountain        : 3
+    Gerudo's Fortress      : 3
+    Outside Ganon's Castle : 1
+    Haunted Wasteland      : 1
+
+Paths
+  Way of the Hero
+    OOT Fire Temple Boss: Light Medallion
+    OOT Fishing Pond Adult: Light Arrows (OoT)
+    OOT Gerudo Training Grounds Lizalfos: Soul of the Old Hag (OoT)
+    OOT Hyrule Field Grotto Southeast: Odd Mushroom
+    OOT Ice Cavern Map: Eyeball Frog
+    OOT Kakariko Potion Shop Odd Potion: Soul of Shooting Gallery Owner (OoT)
+    OOT Laboratory Eye Drops: Soul of Fishing Pond Owner (OoT)
+    OOT Malon Egg: Soul of the Scientist (OoT)
+    OOT Shooting Gallery Child: Soul of Zelda
+
+  Path to Gohma
+    OOT Deku Tree Compass Room Side Chest: Fairy Slingshot
+    OOT Dodongo Cavern Lobby Scrub: Deku Shield (OoT)
+
+  Path to Barinade
+    OOT Bottom of the Well Compass: Small Key (Bottom of the Well)
+    OOT Bottom of the Well East: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Front West: Progressive Strength (OoT)
+    OOT Bottom of the Well Map: Ruto's Letter
+    OOT Bottom of the Well Pits: Soul of Ruto (OoT)
+    OOT Bottom of the Well Underwater 2: Small Key (Bottom of the Well)
+    OOT Death Mountain Crater Alcove HP: Progressive Hookshot (OoT)
+    OOT Death Mountain Crater Grotto: Din's Fire (OoT)
+    OOT Death Mountain Crater Sheik Song: Zelda's Lullaby
+    OOT Deku Tree Boss Container: Bottled Big Poe (OoT)
+    OOT Dodongo Cavern Bomb Bag Side Chest: Soul of Goron Child (OoT)
+    OOT Dodongo Cavern Compass Chest: Soul of Sheik
+    OOT Fire Temple Jail 1 Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room North Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room South Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Maze Chest: Hover Boots (OoT)
+    OOT Gerudo Valley Waterfall HP: Progressive Strength (OoT)
+    OOT Hyrule Field Grotto Open: Master Sword
+    OOT Ice Cavern SR Blocks Alcove: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Right: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Center: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Front Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Scythe Back: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Right: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Midair: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern Sheik Song: Requiem of Spirit
+    OOT Kakariko Grotto Front: Goron Tunic (OoT)
+    OOT Lost Woods Scrub Sticks Upgrade: Progressive Scale (Oot)
+    OOT Saria's Song: Nocturne of Shadow
+    OOT Shadow Temple Falling Spikes Lower: Small Key (Shadow Temple)
+    OOT Shadow Temple Falling Spikes Upper 2: Small Key (Shadow Temple)
+    OOT Shadow Temple Hover Boots: Small Key (Shadow Temple)
+    OOT Shadow Temple SR Pit 1: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 2: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 3: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 4: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 5: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple Wind Room Hint: Boomerang
+    OOT Spirit Temple Adult Lullaby: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Silver Rupees: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Suns on Wall 1: Magic Upgrade (OoT)
+    OOT Spirit Temple Child Climb 1: Small Key (Spirit Temple)
+    OOT Spirit Temple SR Boulders 1: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 2: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 3: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 4: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 5: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple Statue Hands: Bomb Bag (OoT)
+    OOT Zelda's Letter: Soul of Saria
+    OOT Zelda's Song: Song of Storms (OoT)
+
+  Path to Volvagia
+    OOT Fire Temple Boss Key Side Chest: Boss Key (Fire Temple)
+    OOT Temple of Time Sheik Song: Song of Time (OoT)
+    OOT Water Temple Boss: Forest Medallion
+    OOT Zora River Frogs Game: Megaton Hammer (OoT)
+
+  Path to Morpha
+    OOT Ganon Castle Light Chest Around 1: Soul of the Patrolling Gerudos
+    OOT Ganon Castle SR Spirit Back Left: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Back Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Center Bottom: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Center Midair: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Front Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle Shadow Chest 2: Soul of Zora Shopkeeper (OoT)
+    OOT Ganon Castle Spirit Chest 1: Progressive Wallet (OoT)
+    OOT Gerudo Fortress Jail 1: Small Key (Gerudo's Fortress)
+    OOT Gerudo Member Card: Gerudo's Membership Card
+    OOT Gerudo Training Grounds Eye Statue: Soul of Malon (OoT)
+    OOT Gerudo Training Grounds SR Slope Back: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Center: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Front Above: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Front Left: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Front Right: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Goron City Big Pot HP: Soul of Carpenters (OoT)
+    OOT Graveyard ReDead Tomb: Progressive Hookshot (OoT)
+    OOT Graveyard Royal Tomb Song: Epona's Song (OoT)
+    OOT Jabu-Jabu Boss: Spirit Medallion
+    OOT Lake Hylia HP: Iron Boots (OoT)
+    OOT Lon Lon Ranch Malon Song: Saria's Song
+    OOT Sacred Meadow Sheik Song: Sun's Song (OoT)
+    OOT Shadow Temple Boss: Shadow Medallion
+    OOT Spirit Temple Adult Invisible 2: Progressive Strength (OoT)
+    OOT Spirit Temple Adult Topmost Sun on Wall: Progressive Wallet (OoT)
+    OOT Spirit Temple Boss: Water Medallion
+    OOT Temple of Time Medallion: Fire Medallion
+    OOT Water Temple Bombable Chest: Small Key (Water Temple)
+    OOT Water Temple Boss Key Chest: Boss Key (Water Temple)
+    OOT Water Temple Compass: Small Key (Water Temple)
+    OOT Water Temple Map: Small Key (Water Temple)
+    OOT Water Temple Shell Chest: Small Key (Water Temple)
+    OOT Water Temple Under Center: Small Key (Water Temple)
+    OOT Zora Shop Item 7: Zora Tunic (OoT)
+
+  Path to Bongo-Bongo
+    OOT Bottom of the Well Compass: Small Key (Bottom of the Well)
+    OOT Bottom of the Well East: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Front West: Progressive Strength (OoT)
+    OOT Bottom of the Well Map: Ruto's Letter
+    OOT Bottom of the Well Underwater 2: Small Key (Bottom of the Well)
+    OOT Death Mountain Crater Alcove HP: Progressive Hookshot (OoT)
+    OOT Death Mountain Crater Grotto: Din's Fire (OoT)
+    OOT Death Mountain Crater Sheik Song: Zelda's Lullaby
+    OOT Deku Tree Boss Container: Bottled Big Poe (OoT)
+    OOT Dodongo Cavern Bomb Bag Side Chest: Soul of Goron Child (OoT)
+    OOT Dodongo Cavern Compass Chest: Soul of Sheik
+    OOT Fire Temple Jail 1 Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room North Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room South Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Maze Chest: Hover Boots (OoT)
+    OOT Gerudo Valley Waterfall HP: Progressive Strength (OoT)
+    OOT Hyrule Field Grotto Open: Master Sword
+    OOT Ice Cavern SR Blocks Alcove: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Right: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Center: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Front Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Scythe Back: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Right: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Midair: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern Sheik Song: Requiem of Spirit
+    OOT Kakariko Grotto Front: Goron Tunic (OoT)
+    OOT Lost Woods Scrub Sticks Upgrade: Progressive Scale (Oot)
+    OOT Saria's Song: Nocturne of Shadow
+    OOT Shadow Temple After Wind Invisible: Small Key (Shadow Temple)
+    OOT Shadow Temple After Wind: Small Key (Shadow Temple)
+    OOT Shadow Temple Falling Spikes Lower: Small Key (Shadow Temple)
+    OOT Shadow Temple Falling Spikes Upper 2: Small Key (Shadow Temple)
+    OOT Shadow Temple Hover Boots: Small Key (Shadow Temple)
+    OOT Shadow Temple Invisible Floormaster: Boss Key (Shadow Temple)
+    OOT Shadow Temple SR Pit 1: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 2: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 3: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 4: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 5: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Spirit Temple Adult Lullaby: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Silver Rupees: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Suns on Wall 1: Magic Upgrade (OoT)
+    OOT Spirit Temple Child Climb 1: Small Key (Spirit Temple)
+    OOT Spirit Temple SR Boulders 1: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 2: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 3: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 4: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 5: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple Statue Hands: Bomb Bag (OoT)
+    OOT Zelda's Letter: Soul of Saria
+    OOT Zelda's Song: Song of Storms (OoT)
+
+  Path to Twinrova
+    OOT Bottom of the Well Compass: Small Key (Bottom of the Well)
+    OOT Bottom of the Well East: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Front West: Progressive Strength (OoT)
+    OOT Bottom of the Well Map: Ruto's Letter
+    OOT Bottom of the Well Underwater 2: Small Key (Bottom of the Well)
+    OOT Death Mountain Crater Alcove HP: Progressive Hookshot (OoT)
+    OOT Death Mountain Crater Sheik Song: Zelda's Lullaby
+    OOT Deku Tree Boss Container: Bottled Big Poe (OoT)
+    OOT Dodongo Cavern Bomb Bag Side Chest: Soul of Goron Child (OoT)
+    OOT Dodongo Cavern Compass Chest: Soul of Sheik
+    OOT Gerudo Valley Waterfall HP: Progressive Strength (OoT)
+    OOT Goron City Tunic: Mirror Shield (OoT)
+    OOT Hyrule Field Grotto Open: Master Sword
+    OOT Ice Cavern SR Blocks Alcove: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Right: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Center: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Front Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Scythe Back: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Right: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Midair: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern Sheik Song: Requiem of Spirit
+    OOT Lost Woods Scrub Sticks Upgrade: Progressive Scale (Oot)
+    OOT Spirit Temple Adult Invisible 1: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Lullaby: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Silver Rupees: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Suns on Wall 1: Magic Upgrade (OoT)
+    OOT Spirit Temple Child Climb 1: Small Key (Spirit Temple)
+    OOT Spirit Temple SR Boulders 1: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 2: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 3: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 4: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 5: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple Statue Base: Boss Key (Spirit Temple)
+    OOT Spirit Temple Statue Hands: Bomb Bag (OoT)
+    OOT Spirit Temple Sun Block Room Torches: Small Key (Spirit Temple)
+    OOT Zelda's Song: Song of Storms (OoT)
+
+
+Plando
+  OOT Zora River Bean Seller: Magic Beans (OoT)
+
+===========================================================================
+Spheres
+  Sphere 0
+    Location - OOT Deku Tree Compass Room Side Chest: Fairy Slingshot
+    Location - OOT Deku Tree GS Basement Gate: Gold Skulltula Token
+    Location - OOT Deku Tree GS Compass: Gold Skulltula Token
+    Location - OOT Gerudo Valley Waterfall HP: Progressive Strength (OoT)
+    Location - OOT Hyrule Castle GS Tree: Gold Skulltula Token
+    Location - OOT Hyrule Field Grotto Open: Master Sword
+    Location - OOT Kakariko GS Bazaar: Gold Skulltula Token
+    Location - OOT Kakariko GS House of Skulltula: Gold Skulltula Token
+    Location - OOT Kakariko GS Shooting Gallery: Gold Skulltula Token
+    Location - OOT Kakariko GS Tree: Gold Skulltula Token
+    Location - OOT Kokiri Forest GS Night Child: Gold Skulltula Token
+    Location - OOT Lake Hylia GS Island: Gold Skulltula Token
+    Location - OOT Lon Lon Ranch GS Rain Shed: Gold Skulltula Token
+    Location - OOT Lon Lon Ranch GS Tree: Gold Skulltula Token
+    Location - OOT Market Pot House GS: Gold Skulltula Token
+    Location - OOT Zelda's Letter: Soul of Saria
+    Location - OOT Zelda's Song: Song of Storms (OoT)
+    Location - OOT Zora River GS Tree: Gold Skulltula Token
+
+  Sphere 1
+    Event - Time Travel
+    Location - OOT Bottom of the Well Compass: Small Key (Bottom of the Well)
+    Location - OOT Bottom of the Well East: Small Key (Bottom of the Well)
+    Location - OOT Bottom of the Well Front West: Progressive Strength (OoT)
+    Location - OOT Deku Tree GS Basement Vines: Gold Skulltula Token
+    Location - OOT Dodongo Cavern Bomb Bag Side Chest: Soul of Goron Child (OoT)
+    Location - OOT Dodongo Cavern Compass Chest: Soul of Sheik
+    Location - OOT Dodongo Cavern GS Side Room: Gold Skulltula Token
+    Location - OOT Dodongo Cavern GS Stairs Vines: Gold Skulltula Token
+    Location - OOT Dodongo Cavern Lobby Scrub: Deku Shield (OoT)
+    Location - OOT Kakariko GS Ladder: Gold Skulltula Token
+    Location - OOT Lost Woods Scrub Sticks Upgrade: Progressive Scale (Oot)
+    Location - OOT Saria's Song: Nocturne of Shadow
+
+  Sphere 2
+    Event - Beat Gohma
+    Location - OOT Death Mountain Crater Alcove HP: Progressive Hookshot (OoT)
+    Location - OOT Ganon Castle Exterior GS: Gold Skulltula Token
+    Location - OOT Goron City GS Platform: Gold Skulltula Token
+    Location - OOT Goron City Tunic: Mirror Shield (OoT)
+    Location - OOT Temple of Time Medallion: Fire Medallion
+    Location - OOT Zora River GS Ladder: Gold Skulltula Token
+
+  Sphere 3
+    Location - OOT Death Mountain Crater Sheik Song: Zelda's Lullaby
+    Location - OOT Deku Tree Boss Container: Bottled Big Poe (OoT)
+    Location - OOT Fire Temple Jail 1 Chest: Small Key (Fire Temple)
+    Location - OOT Lake Hylia HP: Iron Boots (OoT)
+    Location - OOT Skulltula House 20 Tokens: Fairy Bow (OoT)
+
+  Sphere 4
+    Location - OOT Bottom of the Well Underwater 2: Small Key (Bottom of the Well)
+    Location - OOT Fire Temple Lava Room North Jail Chest: Small Key (Fire Temple)
+    Location - OOT Graveyard Royal Tomb Song: Epona's Song (OoT)
+    Location - OOT Water Temple Compass: Small Key (Water Temple)
+    Location - OOT Water Temple Map: Small Key (Water Temple)
+    Location - OOT Water Temple Shell Chest: Small Key (Water Temple)
+
+  Sphere 5
+    Location - OOT Bottom of the Well Map: Ruto's Letter
+    Location - OOT Bottom of the Well Pits: Soul of Ruto (OoT)
+
+  Sphere 6
+    Location - OOT Ice Cavern SR Scythe Back: Silver Rupee (Ice Cavern - Scythe)
+    Location - OOT Ice Cavern SR Scythe Center Left: Silver Rupee (Ice Cavern - Scythe)
+    Location - OOT Ice Cavern SR Scythe Center Right: Silver Rupee (Ice Cavern - Scythe)
+    Location - OOT Ice Cavern SR Scythe Left: Silver Rupee (Ice Cavern - Scythe)
+    Location - OOT Ice Cavern SR Scythe Midair: Silver Rupee (Ice Cavern - Scythe)
+
+  Sphere 7
+    Location - OOT Ice Cavern Map: Eyeball Frog
+    Location - OOT Ice Cavern SR Blocks Alcove: Silver Rupee (Ice Cavern - Block)
+    Location - OOT Ice Cavern SR Blocks Back Left: Silver Rupee (Ice Cavern - Block)
+    Location - OOT Ice Cavern SR Blocks Back Right: Silver Rupee (Ice Cavern - Block)
+    Location - OOT Ice Cavern SR Blocks Center: Silver Rupee (Ice Cavern - Block)
+    Location - OOT Ice Cavern SR Blocks Front Left: Silver Rupee (Ice Cavern - Block)
+
+  Sphere 8
+    Location - OOT Ice Cavern Sheik Song: Requiem of Spirit
+
+  Sphere 9
+    Location - OOT Spirit Temple Adult Lullaby: Small Key (Spirit Temple)
+    Location - OOT Spirit Temple SR Boulders 1: Silver Rupee (Spirit Temple - Boulders)
+    Location - OOT Spirit Temple SR Boulders 2: Silver Rupee (Spirit Temple - Boulders)
+    Location - OOT Spirit Temple SR Boulders 3: Silver Rupee (Spirit Temple - Boulders)
+    Location - OOT Spirit Temple SR Boulders 4: Silver Rupee (Spirit Temple - Boulders)
+    Location - OOT Spirit Temple SR Boulders 5: Silver Rupee (Spirit Temple - Boulders)
+
+  Sphere 10
+    Location - OOT Spirit Temple Adult Silver Rupees: Small Key (Spirit Temple)
+    Location - OOT Spirit Temple Child Climb 1: Small Key (Spirit Temple)
+
+  Sphere 11
+    Location - OOT Spirit Temple Adult Suns on Wall 1: Magic Upgrade (OoT)
+    Location - OOT Spirit Temple Statue Hands: Bomb Bag (OoT)
+
+  Sphere 12
+    Location - OOT Death Mountain Crater Grotto: Din's Fire (OoT)
+    Location - OOT Fire Temple Lava Room South Jail Chest: Small Key (Fire Temple)
+    Location - OOT Goron City Big Pot HP: Soul of Carpenters (OoT)
+    Location - OOT Hyrule Field Grotto Southeast: Odd Mushroom
+    Location - OOT Kakariko Grotto Front: Goron Tunic (OoT)
+    Location - OOT Water Temple Bombable Chest: Small Key (Water Temple)
+
+  Sphere 13
+    Location - OOT Fire Temple Maze Chest: Hover Boots (OoT)
+    Location - OOT Gerudo Fortress Jail 1: Small Key (Gerudo's Fortress)
+    Location - OOT Shadow Temple Hover Boots: Small Key (Shadow Temple)
+    Location - OOT Spirit Temple Statue Base: Boss Key (Spirit Temple)
+    Location - OOT Spirit Temple Sun Block Room Torches: Small Key (Spirit Temple)
+
+  Sphere 14
+    Location - OOT Gerudo Member Card: Gerudo's Membership Card
+    Location - OOT Shadow Temple SR Pit 1: Silver Rupee (Shadow Temple - Large Pits)
+    Location - OOT Shadow Temple SR Pit 2: Silver Rupee (Shadow Temple - Large Pits)
+    Location - OOT Shadow Temple SR Pit 3: Silver Rupee (Shadow Temple - Large Pits)
+    Location - OOT Shadow Temple SR Pit 4: Silver Rupee (Shadow Temple - Large Pits)
+    Location - OOT Shadow Temple SR Pit 5: Silver Rupee (Shadow Temple - Large Pits)
+    Location - OOT Spirit Temple Adult Invisible 1: Small Key (Spirit Temple)
+    Location - OOT Spirit Temple Adult Invisible 2: Progressive Strength (OoT)
+
+  Sphere 15
+    Event - Beat Twinrova
+    Location - OOT Shadow Temple Falling Spikes Lower: Small Key (Shadow Temple)
+    Location - OOT Shadow Temple Falling Spikes Upper 2: Small Key (Shadow Temple)
+    Location - OOT Spirit Temple Adult Topmost Sun on Wall: Progressive Wallet (OoT)
+
+  Sphere 16
+    Location - OOT Shadow Temple After Wind Invisible: Small Key (Shadow Temple)
+    Location - OOT Shadow Temple After Wind: Small Key (Shadow Temple)
+    Location - OOT Shadow Temple Wind Room Hint: Boomerang
+    Location - OOT Spirit Temple Boss: Water Medallion
+
+  Sphere 17
+    Event - Beat Barinade
+    Location - OOT Shadow Temple Invisible Floormaster: Boss Key (Shadow Temple)
+
+  Sphere 18
+    Event - Beat Bongo-Bongo
+    Location - OOT Jabu-Jabu Boss: Spirit Medallion
+
+  Sphere 19
+    Location - OOT Shadow Temple Boss: Shadow Medallion
+
+  Sphere 20
+    Event - Rainbow Bridge
+
+  Sphere 21
+    Location - OOT Ganon Castle Light Chest Around 1: Soul of the Patrolling Gerudos
+    Location - OOT Ganon Castle SR Spirit Back Left: Silver Rupee (Ganon's Castle - Spirit Trial)
+    Location - OOT Ganon Castle SR Spirit Back Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+    Location - OOT Ganon Castle SR Spirit Center Bottom: Silver Rupee (Ganon's Castle - Spirit Trial)
+    Location - OOT Ganon Castle SR Spirit Center Midair: Silver Rupee (Ganon's Castle - Spirit Trial)
+    Location - OOT Ganon Castle SR Spirit Front Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+
+  Sphere 22
+    Location - OOT Ganon Castle Spirit Chest 1: Progressive Wallet (OoT)
+    Location - OOT Gerudo Training Grounds Lizalfos: Soul of the Old Hag (OoT)
+    Location - OOT Gerudo Training Grounds SR Slope Back: Silver Rupee (Gerudo Training Ground - Slopes)
+    Location - OOT Gerudo Training Grounds SR Slope Center: Silver Rupee (Gerudo Training Ground - Slopes)
+    Location - OOT Gerudo Training Grounds SR Slope Front Above: Silver Rupee (Gerudo Training Ground - Slopes)
+    Location - OOT Gerudo Training Grounds SR Slope Front Left: Silver Rupee (Gerudo Training Ground - Slopes)
+    Location - OOT Gerudo Training Grounds SR Slope Front Right: Silver Rupee (Gerudo Training Ground - Slopes)
+
+  Sphere 23
+    Location - OOT Gerudo Training Grounds Eye Statue: Soul of Malon (OoT)
+    Location - OOT Kakariko Potion Shop Odd Potion: Soul of Shooting Gallery Owner (OoT)
+
+  Sphere 24
+    Location - OOT Lon Lon Ranch Malon Song: Saria's Song
+    Location - OOT Malon Egg: Soul of the Scientist (OoT)
+    Location - OOT Shooting Gallery Child: Soul of Zelda
+
+  Sphere 25
+    Location - OOT Laboratory Eye Drops: Soul of Fishing Pond Owner (OoT)
+    Location - OOT Sacred Meadow Sheik Song: Sun's Song (OoT)
+
+  Sphere 26
+    Location - OOT Fishing Pond Adult: Light Arrows (OoT)
+    Location - OOT Graveyard ReDead Tomb: Progressive Hookshot (OoT)
+
+  Sphere 27
+    Location - OOT Ganon Castle Shadow Chest 2: Soul of Zora Shopkeeper (OoT)
+
+  Sphere 28
+    Location - OOT Zora Shop Item 7: Zora Tunic (OoT)
+
+  Sphere 29
+    Location - OOT Water Temple Under Center: Small Key (Water Temple)
+
+  Sphere 30
+    Location - OOT Water Temple Boss Key Chest: Boss Key (Water Temple)
+
+  Sphere 31
+    Event - Beat Morpha
+
+  Sphere 32
+    Location - OOT Water Temple Boss: Forest Medallion
+
+  Sphere 33
+    Location - OOT Temple of Time Sheik Song: Song of Time (OoT)
+
+  Sphere 34
+    Location - OOT Zora River Frogs Game: Megaton Hammer (OoT)
+
+  Sphere 35
+    Location - OOT Fire Temple Boss Key Side Chest: Boss Key (Fire Temple)
+
+  Sphere 36
+    Event - Beat Volvagia
+
+  Sphere 37
+    Location - OOT Fire Temple Boss: Light Medallion
+
+  Sphere 38
+    Event - Beat Ganon
+
+===========================================================================
+Location List (589)
+  Death Mountain Trail (8):
+    OOT Death Mountain Trail Chest: Purple Rupee (OoT)
+    OOT Death Mountain Trail HP: 10 Bombs (OoT)
+    OOT Death Mountain Trail Prescription: Piece of Heart (OoT)
+    OOT Death Mountain Trail Claim Check: Purple Rupee (OoT)
+    OOT Death Mountain Trail Biggoron Sword: Piece of Heart (OoT)
+    OOT Death Mountain Trail Grotto: Soul of Goron (OoT)
+    OOT Death Mountain Trail Cow: Lon Lon Milk (OoT)
+    OOT Great Fairy Magic Upgrade: Soul of Kokiri Shopkeeper
+
+  Death Mountain Crater (9):
+    OOT Death Mountain Crater Alcove HP: Progressive Hookshot (OoT)
+    OOT Death Mountain Crater Scrub Child: 5 Bombs (OoT)
+    OOT Death Mountain Crater Volcano HP: Lens of Truth (OoT)
+    OOT Death Mountain Crater Sheik Song: Zelda's Lullaby
+    OOT Death Mountain Crater Grotto: Din's Fire (OoT)
+    OOT Death Mountain Crater Grotto Left Scrub: 5 Deku Nuts (OoT)
+    OOT Death Mountain Crater Grotto Center Scrub: 30 Deku Seeds
+    OOT Death Mountain Crater Grotto Right Scrub: 5 Bombs (OoT)
+    OOT Great Fairy Magic Upgrade 2: Soul of Dampe (OoT)
+
+  Desert Colossus (5):
+    OOT Desert Colossus HP: Fairy Slingshot
+    OOT Desert Colossus Song Spirit: Bolero of Fire
+    OOT Great Fairy Nayru's Love: Shock Trap (cloaked as Lens of Truth (OoT))
+    OOT Desert Colossus Grotto Front Scrub: Green Potion (OoT)
+    OOT Desert Colossus Grotto Back Scrub: Red Potion (OoT)
+
+  Gerudo's Fortress (3):
+    OOT Gerudo Fortress Archery Reward 1: Cojiro
+    OOT Gerudo Fortress Archery Reward 2: Soul of Cucco Lady (OoT)
+    OOT Gerudo Fortress Chest: Ice Trap (cloaked as Ice Arrows (OoT))
+
+  Gerudo Valley (7):
+    OOT Gerudo Valley Crate HP: Heart Container (OoT)
+    OOT Gerudo Valley Waterfall HP: Progressive Strength (OoT)
+    OOT Gerudo Valley Cow: Lon Lon Milk (OoT)
+    OOT Gerudo Valley Chest: Fairy Bow (OoT)
+    OOT Gerudo Valley Broken Goron Sword: Heart Container (OoT)
+    OOT Gerudo Valley Grotto Front Scrub: Green Potion (OoT)
+    OOT Gerudo Valley Grotto Back Scrub: Red Potion (OoT)
+
+  Goron City (19):
+    OOT Goron City Maze Center 1: Soul of Honey & Darling (OoT)
+    OOT Goron City Maze Center 2: Piece of Heart (OoT)
+    OOT Goron City Maze Left: Piece of Heart (OoT)
+    OOT Goron City Big Pot HP: Soul of Carpenters (OoT)
+    OOT Goron City Tunic: Mirror Shield (OoT)
+    OOT Goron City Bomb Bag: Purple Rupee (OoT)
+    OOT Goron City Medigoron Giant Knife: Soul of King Zora
+    OOT Darunia: Rupoor (cloaked as Soul of Zora (OoT))
+    OOT Goron Shop Item 1: Recovery Heart (OoT)
+    OOT Goron Shop Item 2: Recovery Heart (OoT)
+    OOT Goron Shop Item 3: Red Potion (OoT)
+    OOT Goron Shop Item 4: Goron Tunic (OoT)
+    OOT Goron Shop Item 5: 5 Bombs (OoT)
+    OOT Goron Shop Item 6: 10 Bombs (OoT)
+    OOT Goron Shop Item 7: 20 Bombs (OoT)
+    OOT Goron Shop Item 8: 30 Bombs (OoT)
+    OOT Goron City Grotto Left Scrub: 5 Deku Nuts (OoT)
+    OOT Goron City Grotto Center Scrub: 30 Deku Seeds
+    OOT Goron City Grotto Right Scrub: 5 Bombs (OoT)
+
+  Graveyard (8):
+    OOT Graveyard Dampe Game: Piece of Heart (OoT)
+    OOT Graveyard Crate HP: Piece of Heart (OoT)
+    OOT Graveyard Royal Tomb Song: Epona's Song (OoT)
+    OOT Graveyard Royal Tomb Chest: Recovery Heart (OoT)
+    OOT Graveyard Fairy Tomb: Knockback Trap (cloaked as Claim Check)
+    OOT Graveyard ReDead Tomb: Progressive Hookshot (OoT)
+    OOT Graveyard Dampe Tomb Reward 1: Soul of Mido
+    OOT Graveyard Dampe Tomb Reward 2: Fire Trap (cloaked as Goron Mask (OoT))
+
+  Haunted Wasteland (2):
+    OOT Haunted Wasteland Carpet Merchant: 20 Bombchu (OoT)
+    OOT Haunted Wasteland Chest: Piece of Heart (OoT)
+
+  Hyrule Field (8):
+    OOT Hyrule Field Ocarina of Time: Drain Trap (cloaked as Bomb Bag (OoT))
+    OOT Hyrule Field Song of Time: Minuet of Forest
+    OOT Hyrule Field Grotto Scrub HP: Ice Trap (cloaked as Spooky Mask)
+    OOT Hyrule Field Grotto Open: Master Sword
+    OOT Hyrule Field Grotto Southeast: Odd Mushroom
+    OOT Hyrule Field Grotto Market: Soul of the Bean Salesman (OoT)
+    OOT Hyrule Field Grotto Tektite HP: Drain Trap (cloaked as Odd Mushroom)
+    OOT Hyrule Field Cow: Lon Lon Milk (OoT)
+
+  Hyrule Castle (2):
+    OOT Malon Egg: Soul of the Scientist (OoT)
+    OOT Great Fairy Din's Fire: Shock Trap (cloaked as Fairy Slingshot)
+
+  POCKET (2):
+    OOT Zelda's Letter: Soul of Saria
+    OOT Zelda's Song: Song of Storms (OoT)
+
+  Outside Ganon's Castle (1):
+    OOT Great Fairy Defense Upgrade: Zora Mask (OoT)
+
+  Kakariko (35):
+    OOT Kakariko Anju Bottle: Knockback Trap (cloaked as Magic Upgrade (OoT))
+    OOT Kakariko Anju Egg: Mask of Truth (OoT)
+    OOT Kakariko Anju Cojiro: Piece of Heart (OoT)
+    OOT Kakariko Song Shadow: Serenade of Water
+    OOT Kakariko Man on Roof: Piece of Heart (OoT)
+    OOT Kakariko Bazaar Item 1: 5 Arrows (OoT)
+    OOT Kakariko Bazaar Item 2: 10 Arrows (OoT)
+    OOT Kakariko Bazaar Item 3: 30 Arrows (OoT)
+    OOT Kakariko Bazaar Item 4: Deku Stick (OoT)
+    OOT Kakariko Bazaar Item 5: 5 Bombs (OoT)
+    OOT Kakariko Bazaar Item 6: Recovery Heart (OoT)
+    OOT Kakariko Bazaar Item 7: 5 Deku Nuts (OoT)
+    OOT Kakariko Bazaar Item 8: Hylian Shield
+    OOT Kakariko Potion Shop Item 1: Fish (OoT)
+    OOT Kakariko Potion Shop Item 2: Bugs (OoT)
+    OOT Kakariko Potion Shop Item 3: Poe (OoT)
+    OOT Kakariko Potion Shop Item 4: 5 Deku Nuts (OoT)
+    OOT Kakariko Potion Shop Item 5: Blue Fire
+    OOT Kakariko Potion Shop Item 6: Fairy (OoT)
+    OOT Kakariko Potion Shop Item 7: Green Potion (OoT)
+    OOT Kakariko Potion Shop Item 8: Red Potion (OoT)
+    OOT Kakariko Potion Shop Odd Potion: Soul of Shooting Gallery Owner (OoT)
+    OOT Kakariko Potion Shop Buy Blue Potion: Blue Potion (OoT)
+    OOT Shooting Gallery Adult: 30 Arrows (OoT)
+    OOT Kakariko Cow: Lon Lon Milk (OoT)
+    OOT Kakariko Impa House HP: Soul of the Citizens (OoT)
+    OOT Windmill HP: Piece of Heart (OoT)
+    OOT Windmill Song of Storms: Prelude of Light
+    OOT Skulltula House 10 Tokens: 20 Bombchu (OoT)
+    OOT Skulltula House 20 Tokens: Fairy Bow (OoT)
+    OOT Skulltula House 30 Tokens: Piece of Heart (OoT)
+    OOT Skulltula House 40 Tokens: Soul of Bazaar Shopkeeper (OoT)
+    OOT Skulltula House 50 Tokens: Purple Rupee (OoT)
+    OOT Kakariko Grotto Front: Goron Tunic (OoT)
+    OOT Kakariko Grotto Back: Piece of Heart (OoT)
+
+  Kokiri Forest (15):
+    OOT Kokiri Forest Cow: Lon Lon Milk (OoT)
+    OOT Kokiri Forest Kokiri Sword Chest: 10 Bombchu (OoT)
+    OOT Kokiri Shop Item 1: Recovery Heart (OoT)
+    OOT Kokiri Shop Item 2: 10 Arrows (OoT)
+    OOT Kokiri Shop Item 3: 30 Arrows (OoT)
+    OOT Kokiri Shop Item 4: 30 Deku Seeds
+    OOT Kokiri Shop Item 5: 5 Deku Nuts (OoT)
+    OOT Kokiri Shop Item 6: 10 Deku Nuts (OoT)
+    OOT Kokiri Shop Item 7: Deku Stick (OoT)
+    OOT Kokiri Shop Item 8: Deku Shield (OoT)
+    OOT Mido's House Top Left: Eye Drops
+    OOT Mido's House Top Right: Piece of Heart (OoT)
+    OOT Mido's House Bottom Left: Progressive Goron Sword
+    OOT Mido's House Bottom Right: Soul of Kokiri
+    OOT Kokiri Forest Storms Grotto: Hylian Shield
+
+  Lake Hylia (10):
+    OOT Lake Hylia Underwater Bottle: Double Defense (OoT)
+    OOT Lake Hylia Fire Arrow: Piece of Heart (OoT)
+    OOT Lake Hylia HP: Iron Boots (OoT)
+    OOT Laboratory Dive: Fairy Slingshot
+    OOT Laboratory Eye Drops: Soul of Fishing Pond Owner (OoT)
+    OOT Fishing Pond Child: Piece of Heart (OoT)
+    OOT Fishing Pond Adult: Light Arrows (OoT)
+    OOT Lake Hylia Grotto Left Scrub: 5 Deku Nuts (OoT)
+    OOT Lake Hylia Grotto Center Scrub: 30 Deku Seeds
+    OOT Lake Hylia Grotto Right Scrub: 5 Bombs (OoT)
+
+  Lon Lon Ranch (11):
+    OOT Lon Lon Ranch Malon Song: Saria's Song
+    OOT Lon Lon Ranch Stables Cow Left: Lon Lon Milk (OoT)
+    OOT Lon Lon Ranch Stables Cow Right: Lon Lon Milk (OoT)
+    OOT Lon Lon Ranch Silo HP: Deku Nut Upgrade (OoT)
+    OOT Lon Lon Ranch Silo Cow Front: Lon Lon Milk (OoT)
+    OOT Lon Lon Ranch Silo Cow Back: Lon Lon Milk (OoT)
+    OOT Lon Lon Ranch Talon Bottle: Piece of Heart (OoT)
+    OOT Lon Lon Ranch Talon Buy Milk: Lon Lon Milk (OoT)
+    OOT Lon Lon Ranch Grotto Left Scrub: 5 Deku Nuts (OoT)
+    OOT Lon Lon Ranch Grotto Center Scrub: 30 Deku Seeds
+    OOT Lon Lon Ranch Grotto Right Scrub: 5 Bombs (OoT)
+
+  Lost Woods (14):
+    OOT Lost Woods Target: Heart Container (OoT)
+    OOT Lost Woods Skull Kid: Soul of Talon (OoT)
+    OOT Lost Woods Memory Game: Gold Rupee (OoT)
+    OOT Lost Woods Scrub Sticks Upgrade: Progressive Scale (Oot)
+    OOT Lost Woods Odd Mushroom: Gerudo Mask
+    OOT Lost Woods Poacher's Saw: Stone of Agony (OoT)
+    OOT Lost Woods Grotto Generic: Ice Trap (cloaked as Soul of the Punk Kid (OoT))
+    OOT Lost Woods Gift from Saria: Piece of Heart (OoT)
+    OOT Lost Woods Scrub Near Theater Left: Deku Stick (OoT)
+    OOT Lost Woods Scrub Near Theater Right: 5 Deku Nuts (OoT)
+    OOT Deku Theater Sticks Upgrade: Ice Trap (cloaked as Soul of Goron Child (OoT))
+    OOT Deku Theater Nuts Upgrade: Rupoor (cloaked as Soul of Poe Collector (OoT))
+    OOT Lost Woods Grotto Scrub Nuts Upgrade: Deku Shield (OoT)
+    OOT Lost Woods Grotto Scrub Back: 30 Deku Seeds
+
+  Market (41):
+    OOT Market Bazaar Item 1: 5 Arrows (OoT)
+    OOT Market Bazaar Item 2: 10 Arrows (OoT)
+    OOT Market Bazaar Item 3: 30 Arrows (OoT)
+    OOT Market Bazaar Item 4: Deku Stick (OoT)
+    OOT Market Bazaar Item 5: 5 Bombs (OoT)
+    OOT Market Bazaar Item 6: Recovery Heart (OoT)
+    OOT Market Bazaar Item 7: 5 Deku Nuts (OoT)
+    OOT Market Bazaar Item 8: Hylian Shield
+    OOT Market Potion Shop Item 1: Fish (OoT)
+    OOT Market Potion Shop Item 2: Bugs (OoT)
+    OOT Market Potion Shop Item 3: Poe (OoT)
+    OOT Market Potion Shop Item 4: 5 Deku Nuts (OoT)
+    OOT Market Potion Shop Item 5: Blue Fire
+    OOT Market Potion Shop Item 6: Fairy (OoT)
+    OOT Market Potion Shop Item 7: Green Potion (OoT)
+    OOT Market Potion Shop Item 8: Red Potion (OoT)
+    OOT Market Bombchu Shop Item 1: 20 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 2: 20 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 3: 20 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 4: 20 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 5: 10 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 6: 10 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 7: 10 Bombchu (OoT)
+    OOT Market Bombchu Shop Item 8: 10 Bombchu (OoT)
+    OOT Market Pot House Big Poes: Drain Trap (cloaked as Fairy Slingshot)
+    OOT Market Dog Lady HP: Gold Rupee (OoT)
+    OOT Bombchu Bowling Reward 1: Purple Rupee (OoT)
+    OOT Bombchu Bowling Reward 2: Soul of Cuccos (OoT)
+    OOT Shooting Gallery Child: Soul of Zelda
+    OOT Treasure Chest Game Buy Key: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 1 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 1 Chest Right: Green Rupee (OoT)
+    OOT Treasure Chest Game Room 2 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 2 Chest Right: Green Rupee (OoT)
+    OOT Treasure Chest Game Room 3 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 3 Chest Right: Blue Rupee (OoT)
+    OOT Treasure Chest Game Room 4 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 4 Chest Right: Blue Rupee (OoT)
+    OOT Treasure Chest Game Room 5 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 5 Chest Right: Red Rupee (OoT)
+    OOT Treasure Chest Game HP: Piece of Heart (OoT)
+
+  Sacred Forest Meadow (5):
+    OOT Sacred Meadow Grotto: Bomb Bag (OoT)
+    OOT Saria's Song: Nocturne of Shadow
+    OOT Sacred Meadow Sheik Song: Sun's Song (OoT)
+    OOT Sacred Meadow Storms Grotto Front Scrub: Green Potion (OoT)
+    OOT Sacred Meadow Storms Grotto Back Scrub: Red Potion (OoT)
+
+  Temple of Time (3):
+    OOT Temple of Time Master Sword: Soul of Biggoron (OoT)
+    OOT Temple of Time Sheik Song: Song of Time (OoT)
+    OOT Temple of Time Light Arrows: Blue Rupee (OoT)
+
+  Sacred Realm (1):
+    OOT Temple of Time Medallion: Fire Medallion
+
+  Zora's Domain (12):
+    OOT Zora Domain Waterfall Chest: Deku Stick Upgrade (OoT)
+    OOT Zora Domain Diving Game: Soul of Chest Game Owner (OoT)
+    OOT Zora Domain Tunic: Poacher's Saw
+    OOT Zora Domain Eyeball Frog: Keaton Mask (OoT)
+    OOT Zora Shop Item 1: Red Potion (OoT)
+    OOT Zora Shop Item 2: 30 Arrows (OoT)
+    OOT Zora Shop Item 3: Fish (OoT)
+    OOT Zora Shop Item 4: 5 Deku Nuts (OoT)
+    OOT Zora Shop Item 5: 5 Arrows (OoT)
+    OOT Zora Shop Item 6: 10 Arrows (OoT)
+    OOT Zora Shop Item 7: Zora Tunic (OoT)
+    OOT Zora Shop Item 8: Recovery Heart (OoT)
+
+  Zora's Fountain (3):
+    OOT Zora Fountain Iceberg HP: Piece of Heart (OoT)
+    OOT Zora Fountain Bottom HP: Anti-Magic Trap (cloaked as Fairy Slingshot)
+    OOT Great Fairy Farore's Wind: Blue Rupee (OoT)
+
+  Zora's River (13):
+    OOT Zora River Bean Seller: Magic Beans (OoT)
+    OOT Zora River HP Pillar: Blue Rupee (OoT)
+    OOT Zora River HP Platform: Nayru's Love (OoT)
+    OOT Zora River Frogs Storms: Heart Container (OoT)
+    OOT Zora River Frogs Zeldas Lullaby: Purple Rupee (OoT)
+    OOT Zora River Frogs Eponas Song: Purple Rupee (OoT)
+    OOT Zora River Frogs Sarias Song: Purple Rupee (OoT)
+    OOT Zora River Frogs Suns Song: Purple Rupee (OoT)
+    OOT Zora River Frogs Song of Time: Purple Rupee (OoT)
+    OOT Zora River Frogs Game: Megaton Hammer (OoT)
+    OOT Zora River Storms Grotto Front Scrub: Green Potion (OoT)
+    OOT Zora River Storms Grotto Back Scrub: Red Potion (OoT)
+    OOT Zora River Grotto: Gold Rupee (OoT)
+
+  Jabu-Jabu's Belly (6):
+    OOT Jabu-Jabu Boss Container: Piece of Heart (OoT)
+    OOT Jabu-Jabu Boss: Spirit Medallion
+    OOT Jabu-Jabu Scrub: 5 Deku Nuts (OoT)
+    OOT Jabu-Jabu Boomerang Chest: Deku Nut Upgrade (OoT)
+    OOT Jabu-Jabu Map Chest: Blue Rupee (OoT)
+    OOT Jabu-Jabu Compass Chest: Progressive Scale (Oot)
+
+  Shadow Temple (34):
+    OOT Shadow Temple Boss HC: Piece of Heart (OoT)
+    OOT Shadow Temple Boss: Shadow Medallion
+    OOT Shadow Temple Map: Purple Rupee (OoT)
+    OOT Shadow Temple Hover Boots: Small Key (Shadow Temple)
+    OOT Shadow Temple Compass: Red Rupee (OoT)
+    OOT Shadow Temple SR Scythe 1: Silver Rupee (Shadow Temple - Scythe)
+    OOT Shadow Temple SR Scythe 2: Silver Rupee (Shadow Temple - Scythe)
+    OOT Shadow Temple SR Scythe 3: Silver Rupee (Shadow Temple - Scythe)
+    OOT Shadow Temple SR Scythe 4: Silver Rupee (Shadow Temple - Scythe)
+    OOT Shadow Temple SR Scythe 5: Silver Rupee (Shadow Temple - Scythe)
+    OOT Shadow Temple Silver Rupees: Goron Mask (OoT)
+    OOT Shadow Temple Spinning Blades Visible: Bomb Bag (OoT)
+    OOT Shadow Temple Spinning Blades Invisible: Ice Trap (cloaked as Soul of the Old Hag (OoT))
+    OOT Shadow Temple SR Pit 1: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 2: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 3: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 4: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple SR Pit 5: Silver Rupee (Shadow Temple - Large Pits)
+    OOT Shadow Temple Falling Spikes Lower: Small Key (Shadow Temple)
+    OOT Shadow Temple Falling Spikes Upper 1: Soul of Hylian Guard
+    OOT Shadow Temple Falling Spikes Upper 2: Small Key (Shadow Temple)
+    OOT Shadow Temple SR Spikes Back Left: Silver Rupee (Shadow Temple - Spikes)
+    OOT Shadow Temple SR Spikes Right: Silver Rupee (Shadow Temple - Spikes)
+    OOT Shadow Temple SR Spikes Center: Silver Rupee (Shadow Temple - Spikes)
+    OOT Shadow Temple SR Spikes Front Left: Silver Rupee (Shadow Temple - Spikes)
+    OOT Shadow Temple SR Spikes Midair: Silver Rupee (Shadow Temple - Spikes)
+    OOT Shadow Temple Invisible Spike Room: Heart Container (OoT)
+    OOT Shadow Temple Skull: Soul of Poe Collector (OoT)
+    OOT Shadow Temple Wind Room Hint: Boomerang
+    OOT Shadow Temple After Wind: Small Key (Shadow Temple)
+    OOT Shadow Temple After Wind Invisible: Small Key (Shadow Temple)
+    OOT Shadow Temple Boss Key Room 1: Progressive Ocarina (OoT)
+    OOT Shadow Temple Boss Key Room 2: Drain Trap (cloaked as Gerudo Mask)
+    OOT Shadow Temple Invisible Floormaster: Boss Key (Shadow Temple)
+
+  Deku Tree (8):
+    OOT Deku Tree Boss Container: Bottled Big Poe (OoT)
+    OOT Deku Tree Boss: Kokiri's Emerald
+    OOT Deku Tree Map Chest: Soul of Butterflies (OoT)
+    OOT Deku Tree Compass Chest: Claim Check
+    OOT Deku Tree Compass Room Side Chest: Fairy Slingshot
+    OOT Deku Tree Slingshot Chest: Fire Arrows (OoT)
+    OOT Deku Tree Slingshot Side Chest: Soul of Cows (OoT)
+    OOT Deku Tree Basement Chest: Soul of the Astronomer (OoT)
+
+  Dodongo's Cavern (12):
+    OOT Dodongo Cavern Boss Chest: Piece of Heart (OoT)
+    OOT Dodongo Cavern Boss Container: Piece of Heart (OoT)
+    OOT Dodongo Cavern Boss: Zora's Sapphire
+    OOT Dodongo Cavern Map Chest: Kokiri Sword (OoT)
+    OOT Dodongo Cavern Lobby Scrub: Deku Shield (OoT)
+    OOT Dodongo Cavern Green Side Room Scrub: Deku Stick (OoT)
+    OOT Dodongo Cavern Compass Chest: Soul of Sheik
+    OOT Dodongo Cavern Bomb Bag Side Chest: Soul of Goron Child (OoT)
+    OOT Dodongo Cavern Bomb Bag Side Room Left Scrub: 5 Deku Nuts (OoT)
+    OOT Dodongo Cavern Bomb Bag Side Room Right Scrub: 30 Deku Seeds
+    OOT Dodongo Cavern Bomb Bag Chest: Rupoor (cloaked as Odd Potion)
+    OOT Dodongo Cavern Bridge Chest: Spooky Mask
+
+  Water Temple (12):
+    OOT Water Temple Boss HC: Soul of Medigoron (OoT)
+    OOT Water Temple Boss: Forest Medallion
+    OOT Water Temple Bombable Chest: Small Key (Water Temple)
+    OOT Water Temple Map: Small Key (Water Temple)
+    OOT Water Temple Shell Chest: Small Key (Water Temple)
+    OOT Water Temple Under Center: Small Key (Water Temple)
+    OOT Water Temple Compass: Small Key (Water Temple)
+    OOT Water Temple Dragon Chest: Heart Container (OoT)
+    OOT Water Temple Corridor Chest: Deku Stick Upgrade (OoT)
+    OOT Water Temple Boss Key Chest: Boss Key (Water Temple)
+    OOT Water Temple Longshot: Soul of Potion Shopkeeper
+    OOT Water Temple River Chest: Progressive Goron Sword
+
+  Forest Temple (15):
+    OOT Forest Temple Boss: Goron's Ruby
+    OOT Forest Temple Boss Container: Piece of Heart (OoT)
+    OOT Forest Temple Tree Small Key: Small Key (Forest Temple)
+    OOT Forest Temple Mini-Boss Key: Small Key (Forest Temple)
+    OOT Forest Temple Floormaster: Soul of Composer Bros. (OoT)
+    OOT Forest Temple Map: Small Key (Forest Temple)
+    OOT Forest Temple Garden: Piece of Heart (OoT)
+    OOT Forest Temple Well: Small Key (Forest Temple)
+    OOT Forest Temple Maze: Soul of Graveyard Kid (OoT)
+    OOT Forest Temple Boss Key: Drain Trap (cloaked as Din's Fire (OoT))
+    OOT Forest Temple Poe Key: Boss Key (Forest Temple)
+    OOT Forest Temple Bow: Soul of Darunia
+    OOT Forest Temple Compass: Small Key (Forest Temple)
+    OOT Forest Temple Checkerboard: Soul of the Carpet Man (OoT)
+    OOT Forest Temple Antichamber: Soul of Dogs (OoT)
+
+  Spirit Temple (36):
+    OOT Spirit Temple Boss HC: Fairy Bow (OoT)
+    OOT Spirit Temple Boss: Water Medallion
+    OOT Spirit Temple Child First Chest: Gold Rupee (OoT)
+    OOT Spirit Temple Child Second Chest: Piece of Heart (OoT)
+    OOT Spirit Temple SR Child 1: Silver Rupee (Spirit Temple - Child)
+    OOT Spirit Temple SR Child 2: Silver Rupee (Spirit Temple - Child)
+    OOT Spirit Temple SR Child 3: Silver Rupee (Spirit Temple - Child)
+    OOT Spirit Temple SR Child 4: Silver Rupee (Spirit Temple - Child)
+    OOT Spirit Temple SR Child 5: Silver Rupee (Spirit Temple - Child)
+    OOT Spirit Temple Child Climb 1: Small Key (Spirit Temple)
+    OOT Spirit Temple Child Climb 2: Piece of Heart (OoT)
+    OOT Spirit Temple Sun Block Room Torches: Small Key (Spirit Temple)
+    OOT Spirit Temple SR Sun 1: Silver Rupee (Spirit Temple - Sun Block)
+    OOT Spirit Temple SR Sun 2: Silver Rupee (Spirit Temple - Sun Block)
+    OOT Spirit Temple SR Sun 3: Silver Rupee (Spirit Temple - Sun Block)
+    OOT Spirit Temple SR Sun 4: Silver Rupee (Spirit Temple - Sun Block)
+    OOT Spirit Temple SR Sun 5: Silver Rupee (Spirit Temple - Sun Block)
+    OOT Spirit Temple Silver Gauntlets: Soul of the Rooftop Man (OoT)
+    OOT Spirit Temple Adult Lullaby: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Silver Rupees: Small Key (Spirit Temple)
+    OOT Spirit Temple SR Boulders 1: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 2: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 3: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 4: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple SR Boulders 5: Silver Rupee (Spirit Temple - Boulders)
+    OOT Spirit Temple Adult Suns on Wall 1: Magic Upgrade (OoT)
+    OOT Spirit Temple Adult Suns on Wall 2: Odd Potion
+    OOT Spirit Temple Statue Base: Boss Key (Spirit Temple)
+    OOT Spirit Temple Statue Hands: Bomb Bag (OoT)
+    OOT Spirit Temple Statue Upper Right: 30 Arrows (OoT)
+    OOT Spirit Temple Adult Late Sun on Wall: Piece of Heart (OoT)
+    OOT Spirit Temple Adult Invisible 1: Small Key (Spirit Temple)
+    OOT Spirit Temple Adult Invisible 2: Progressive Strength (OoT)
+    OOT Spirit Temple Mirror Shield: Soul of the Punk Kid (OoT)
+    OOT Spirit Temple Adult Boss Key Chest: Heart Container (OoT)
+    OOT Spirit Temple Adult Topmost Sun on Wall: Progressive Wallet (OoT)
+
+  Fire Temple (16):
+    OOT Fire Temple Boss Container: Small Key (Fire Temple)
+    OOT Fire Temple Boss: Light Medallion
+    OOT Fire Temple Jail 1 Chest: Small Key (Fire Temple)
+    OOT Fire Temple Boss Key Side Chest: Boss Key (Fire Temple)
+    OOT Fire Temple Boss Key Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room North Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Lava Room South Jail Chest: Small Key (Fire Temple)
+    OOT Fire Temple Maze Chest: Hover Boots (OoT)
+    OOT Fire Temple Maze Jail Chest: Piece of Heart (OoT)
+    OOT Fire Temple Map: Soul of the Dog Lady (OoT)
+    OOT Fire Temple Above Maze Chest: Soul of Zora (OoT)
+    OOT Fire Temple Below Maze Chest: Green Rupee (OoT)
+    OOT Fire Temple Scarecrow Chest: Small Key (Fire Temple)
+    OOT Fire Temple Compass: Small Key (Fire Temple)
+    OOT Fire Temple Ring Jail: Zora Tunic (OoT)
+    OOT Fire Temple Hammer: Soul of Goron Shopkeeper (OoT)
+
+  Bottom of the Well (19):
+    OOT Bottom of the Well Coffin: Heart Container (OoT)
+    OOT Bottom of the Well Compass: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Under Debris: Soul of Bombchu Shopkeeper (OoT)
+    OOT Bottom of the Well Back West: Soul of the Beggar (OoT)
+    OOT Bottom of the Well East: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Front West: Progressive Strength (OoT)
+    OOT Bottom of the Well Underwater: Piece of Heart (OoT)
+    OOT Bottom of the Well East Cage: Prescription
+    OOT Bottom of the Well Blood Chest: Recovery Heart (OoT)
+    OOT Bottom of the Well Underwater 2: Small Key (Bottom of the Well)
+    OOT Bottom of the Well Map: Ruto's Letter
+    OOT Bottom of the Well Pits: Soul of Ruto (OoT)
+    OOT Bottom of the Well Lens: Skull Mask
+    OOT Bottom of the Well Lens Side Chest: Rupoor (cloaked as Goron Tunic (OoT))
+    OOT Bottom of the Well SR 1: Silver Rupee (Bottom of the Well)
+    OOT Bottom of the Well SR 2: Silver Rupee (Bottom of the Well)
+    OOT Bottom of the Well SR 3: Silver Rupee (Bottom of the Well)
+    OOT Bottom of the Well SR 4: Silver Rupee (Bottom of the Well)
+    OOT Bottom of the Well SR 5: Silver Rupee (Bottom of the Well)
+
+  Ice Cavern (15):
+    OOT Ice Cavern SR Scythe Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Left: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Back: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Center Right: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern SR Scythe Midair: Silver Rupee (Ice Cavern - Scythe)
+    OOT Ice Cavern Compass: Piece of Heart (OoT)
+    OOT Ice Cavern HP: Drain Trap (cloaked as Bottle of Green Potion (OoT))
+    OOT Ice Cavern Map: Eyeball Frog
+    OOT Ice Cavern SR Blocks Back Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Back Right: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Center: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Alcove: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern SR Blocks Front Left: Silver Rupee (Ice Cavern - Block)
+    OOT Ice Cavern Iron Boots: Soul of Guru-Guru (OoT)
+    OOT Ice Cavern Sheik Song: Requiem of Spirit
+
+  Thieves' Hideout (2):
+    OOT Gerudo Fortress Jail 1: Small Key (Gerudo's Fortress)
+    OOT Gerudo Member Card: Gerudo's Membership Card
+
+  Gerudo's Training Ground (37):
+    OOT Gerudo Training Grounds Entrance 1: Gold Rupee (OoT)
+    OOT Gerudo Training Grounds Entrance 2: Ice Arrows (OoT)
+    OOT Gerudo Training Grounds Stalfos: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds SR Slope Front Right: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Front Left: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Front Above: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Center: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds SR Slope Back: Silver Rupee (Gerudo Training Ground - Slopes)
+    OOT Gerudo Training Grounds Near Block: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds Behind Block Invisible: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds Behind Block Visible: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds Behind Block Enemy Back: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds Behind Block Enemy Front: Purple Rupee (OoT)
+    OOT Gerudo Training Maze Upper Cage: Bunny Hood (OoT)
+    OOT Gerudo Training Grounds Lizalfos: Soul of the Old Hag (OoT)
+    OOT Gerudo Training Grounds SR Lava Front Left: Silver Rupee (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Grounds SR Lava Front Right: Silver Rupee (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Grounds SR Lava Back Left: Silver Rupee (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Grounds SR Lava Back Center: Silver Rupee (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Grounds SR Lava Back Right: Silver Rupee (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Freestanding Key: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Maze Side Chest 1: Pocket Cucco
+    OOT Gerudo Training Maze Side Chest 2: 5 Arrows (OoT)
+    OOT Gerudo Training Water: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Grounds SR Water 1: Silver Rupee (Gerudo Training Ground - Water)
+    OOT Gerudo Training Grounds SR Water 2: Silver Rupee (Gerudo Training Ground - Water)
+    OOT Gerudo Training Grounds SR Water 3: Silver Rupee (Gerudo Training Ground - Water)
+    OOT Gerudo Training Grounds SR Water 4: Silver Rupee (Gerudo Training Ground - Water)
+    OOT Gerudo Training Grounds SR Water 5: Silver Rupee (Gerudo Training Ground - Water)
+    OOT Gerudo Training Grounds Hammer Room Switch: Magic Upgrade (OoT)
+    OOT Gerudo Training Grounds Hammer Room: Piece of Heart (OoT)
+    OOT Gerudo Training Grounds Eye Statue: Soul of Malon (OoT)
+    OOT Gerudo Training Maze Upper Fake Ceiling: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Maze Chest 1: Farore's Wind (OoT)
+    OOT Gerudo Training Maze Chest 2: Small Key (Gerudo's Training Ground)
+    OOT Gerudo Training Maze Chest 3: Bottle of Green Potion (OoT)
+    OOT Gerudo Training Maze Chest 4: Piece of Heart (OoT)
+
+  Ganon's Castle (40):
+    OOT Ganon Castle Leftmost Scrub: Green Potion (OoT)
+    OOT Ganon Castle Left-Center Scrub: 5 Bombs (OoT)
+    OOT Ganon Castle Right-Center Scrub: 10 Arrows (OoT)
+    OOT Ganon Castle Rightmost Scrub: Red Potion (OoT)
+    OOT Ganon Castle Light Chest Around 1: Soul of the Patrolling Gerudos
+    OOT Ganon Castle Light Chest Around 2: Soul of Bombchu Bowling Lady (OoT)
+    OOT Ganon Castle Light Chest Around 3: Blue Rupee (OoT)
+    OOT Ganon Castle Light Chest Around 4: Broken Goron's Sword
+    OOT Ganon Castle Light Chest Around 5: Piece of Heart (OoT)
+    OOT Ganon Castle Light Chest Around 6: Gold Rupee (OoT)
+    OOT Ganon Castle Light Chest Center: Bottle of Milk (OoT)
+    OOT Ganon Castle Light Chest Lullaby: Soul of Ingo (OoT)
+    OOT Ganon Castle SR Light Alcove Right: Silver Rupee (Ganon's Castle - Light Trial)
+    OOT Ganon Castle SR Light Alcove Left: Silver Rupee (Ganon's Castle - Light Trial)
+    OOT Ganon Castle SR Light Center Top: Silver Rupee (Ganon's Castle - Light Trial)
+    OOT Ganon Castle SR Light Center Right: Silver Rupee (Ganon's Castle - Light Trial)
+    OOT Ganon Castle SR Light Center Left: Silver Rupee (Ganon's Castle - Light Trial)
+    OOT Ganon Castle Forest Chest: Piece of Heart (OoT)
+    OOT Ganon Castle SR Forest Center Right: Silver Rupee (Ganon's Castle - Forest Trial)
+    OOT Ganon Castle SR Forest Front: Silver Rupee (Ganon's Castle - Forest Trial)
+    OOT Ganon Castle SR Forest Back Right: Silver Rupee (Ganon's Castle - Forest Trial)
+    OOT Ganon Castle SR Forest Back Middle: Silver Rupee (Ganon's Castle - Forest Trial)
+    OOT Ganon Castle SR Forest Center Left: Silver Rupee (Ganon's Castle - Forest Trial)
+    OOT Ganon Castle SR Fire Back Right: Silver Rupee (Ganon's Castle - Fire Trial)
+    OOT Ganon Castle SR Fire Left: Silver Rupee (Ganon's Castle - Fire Trial)
+    OOT Ganon Castle SR Fire Far Right: Silver Rupee (Ganon's Castle - Fire Trial)
+    OOT Ganon Castle SR Fire Front Right: Silver Rupee (Ganon's Castle - Fire Trial)
+    OOT Ganon Castle SR Fire Black Pillar: Silver Rupee (Ganon's Castle - Fire Trial)
+    OOT Ganon Castle Water Chest 1: Piece of Heart (OoT)
+    OOT Ganon Castle Water Chest 2: Blue Rupee (OoT)
+    OOT Ganon Castle SR Spirit Center Midair: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Front Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Center Bottom: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Back Left: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle SR Spirit Back Right: Silver Rupee (Ganon's Castle - Spirit Trial)
+    OOT Ganon Castle Spirit Chest 1: Progressive Wallet (OoT)
+    OOT Ganon Castle Spirit Chest 2: Ice Trap (cloaked as Zora Mask (OoT))
+    OOT Ganon Castle Shadow Chest 1: Small Key (Ganon's Castle)
+    OOT Ganon Castle Shadow Chest 2: Soul of Zora Shopkeeper (OoT)
+    OOT Ganon Castle Boss Key: Small Key (Ganon's Castle)
+
